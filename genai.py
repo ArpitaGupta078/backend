@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#"This file is part of DayDreamer.
+#"This file is part of DayDreamerrrr.
 
 !pip install diffusers transformers accelerate --upgrade
 !pip install safetensors
