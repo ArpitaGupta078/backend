@@ -13,12 +13,8 @@ app = Flask(__name__)
 CORS(app, resources={r"/generate": {"origins": "*"}})
 
 
-model_path = Path("backend/my_model").resolve()
-# Load your locally saved model
-pipe = StableDiffusionPipeline.from_pretrained(
-    str(model_path),  # ✅ Convert to string
-    torch_dtype=torch.float32
-)
+pipe = StableDiffusionPipeline.from_pretrained("yohuj/my-model-name", torch_dtype=torch.float32)
+
 
 
 # Set device
