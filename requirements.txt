@@ -1,0 +1,7 @@
+flask
+flask-cors
+diffusers
+torch
+transformers
+accelerate
+Pillow
